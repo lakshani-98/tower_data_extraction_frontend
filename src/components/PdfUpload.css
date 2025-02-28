@@ -1,0 +1,70 @@
+.container {
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.custom-paper {
+    padding: 20px;
+    border: 2px dashed #1976d2;
+    background-color: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.custom-paper:hover {
+    background-color: #f1f1f1;
+    border-color: #1565c0;
+}
+
+.file-name {
+    margin-top: 10px;
+    font-style: italic;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.upload-button {
+    margin-top: 30px;
+    background-color: #1976d2;
+}
+
+.drag-active {
+    background-color: #e3f2fd;
+    border-color: #1976d2;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.uploaded-files-title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.uploaded-file-item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.delete-button {
+    color: blue;
+}
